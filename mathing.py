@@ -2,8 +2,11 @@
 import math as meth
 print("Yo, its me super math guy")
 
-mather = meth.sqrt(int(input("Enter the mg: ")))
-if mather > 5:
+mather = int(input("Enter the mg of meth taken: "))
+if mather < 5:
     print("Meth isnt fun")
-else:
+elif mather >= 50:
     print("Meth is fun")
+else:
+    print("Try mathematical operations")
+    print(meth.sqrt(mather))
